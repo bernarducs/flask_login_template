@@ -1,0 +1,6 @@
+flask db init - cria um repositorio de migracao
+flask db migrate -m "users table" - gera migracoes automaticas (mas nao muda o banco de dados)
+flask db upgrade - realiza as mudancas
+
+When working with database servers such as MySQL and PostgreSQL,
+you have to create the database in the database server before running upgrade.

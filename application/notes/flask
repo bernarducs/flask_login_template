@@ -1,0 +1,10 @@
+para iniciar o app
+
+>>> FLASK_APP=run.py
+>>> FLASK_DEBUG=1                   debug mode
+>>> flask run
+
+shell
+
+opcoes acima e..
+>>> flask shell
